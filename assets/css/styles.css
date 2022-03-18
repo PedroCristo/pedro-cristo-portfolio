@@ -667,6 +667,7 @@ i {
   border: transparent;
   border-radius: 50%;
   transition: all 3s;
+  z-index: 100;
 }
 
 .work .carousel .card:hover {

@@ -162,6 +162,16 @@
     font-size: 1.2rem;
   }
 }
+@media only screen and (max-width: 775px) { 
+
+  .work .carousel .card-nft img {
+    height: 197px;
+  }
+
+  .work .carousel .card-logo .logo-box {
+    bottom: 162px;
+  }
+}
 
 @media only screen and (max-width: 750px) {
   .home {
@@ -315,15 +325,12 @@
 }
 
 .work .carousel .card-logo .logo-box {
-  bottom: 210px;
+  bottom: 200px;
 }
 
 section .title {
- 
   font-size: 28px;
-
-}
-
+ }
 }
 
 @media only screen and (max-width: 300px) {
