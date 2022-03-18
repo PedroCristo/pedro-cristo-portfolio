@@ -813,7 +813,6 @@ i {
 .card:hover .live-demo {
   opacity: 1;
   transition: all 0.5s;
-  color: var(--interactive-color);
 }
 
 .live-demo p {
