@@ -124,3 +124,6 @@ $(window).scroll(function(){
         $( window ).resize(function() { rescaleCaptcha(); });
       
       });
+
+      // SHOW CORRENT YEAR IN THE FOOTER
+      $("#corrent-year").text(new Date().getFullYear());
