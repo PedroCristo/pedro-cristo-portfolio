@@ -971,11 +971,12 @@ input[type='number'] {
 *                              *
 *******************************/
 footer {
-  background: linear-gradient(#2d557d, #9610fd);
+  background: linear-gradient(100deg, #2d557d, #9610fd, var(--interactive-color));
   padding: 20px 23px;
   color: #fff;
   text-align: center;
   font-size: 13px;
+  box-shadow: 1px 1px 15px 0;
 }
 
 footer span a,
