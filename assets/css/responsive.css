@@ -5,7 +5,7 @@
 *******************************/
 @media only screen and (min-width: 1380px) {
 
-  .scroll-up-btn {
+  .scroll-up {
     top: 850px !important;
   }
 }
@@ -110,7 +110,7 @@
   }
 
   .navbar ul li .border {
-    border: 2px solid #fff;
+    border: 2px solid var(--white-color);
     border-radius: 5px;
     width: 150px;
     padding: 10px 0;
@@ -159,6 +159,10 @@
     margin-bottom: 35px;
   }
 
+  .skills .left-bars-box {
+    margin-top: -35px;
+  }
+
   .services .services-content .services-content-box p {
     font-size: 1.2rem;
   }
@@ -197,14 +201,21 @@
   .max-width {
     padding: 0 23px;
   }
+
   .home .home-content .text-2 {
     font-size: 60px;
   }
+
   .home .home-content .text-3 {
     font-size: 32px;
   }
+
   .home .home-content a {
     font-size: 20px;
+  }
+
+  .skills .skills-img img {
+    width: 100%;
   }
   .services .services-content .card {
     width: 100%;
@@ -255,13 +266,17 @@
     margin: 0;
   }
 
-  .scroll-up-btn {
+  .scroll-up {
     right: 15px;
     bottom: 15px;
     height: 38px;
     width: 35px;
     font-size: 23px;
     line-height: 38px;
+  }
+
+  .content-text {
+    text-align: left;
   }
 }
 
