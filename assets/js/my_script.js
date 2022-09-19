@@ -132,11 +132,3 @@ $(function () {
 
 // SHOW CORRENT YEAR IN THE FOOTER
 $("#corrent-year").text(new Date().getFullYear());
-
-//PRELOADER
-var loader = document.getElementById("preloader");
-
-window.addEventListener("load", function () {
-
-    loader.style.display = "none";
-})

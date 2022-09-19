@@ -247,22 +247,6 @@ i {
 
 /*******************************
 *                              *
-*          PRELOADER           *
-*                              *
-*******************************/
-.preloader {
-  background: url(../images/gif/pedro-porfolio-preloader.gif);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  width: 100%;
-  position: fixed;
-  z-index: 1000;
-}
-
-/*******************************
-*                              *
 *          MENU BTN            *
 *                              *
 *******************************/
