@@ -274,7 +274,7 @@ i {
   bottom: 15px;
   text-align: center;
   color: var(--white-color);
-  z-index: 9999;
+  z-index: 100;
   font-size: 30px;
   border-radius: 5px;
   cursor: pointer;
