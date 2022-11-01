@@ -637,6 +637,8 @@ i {
   margin: 0 auto;
   display: block;
   width: 80%;
+  box-shadow: 2px 0 10px 3px rgba(0, 0, 0, 0.9);
+  border-radius: 6px;
 }
 
 /*******************************
