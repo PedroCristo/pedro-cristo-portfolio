@@ -392,6 +392,10 @@ i {
   background-color: var(--black-color);
 }
 
+.about .content-text {
+  margin-top: -25px;
+}
+
 .about .about-content .right {
   width: 55%;
 }
