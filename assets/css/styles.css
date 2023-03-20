@@ -376,6 +376,9 @@ i {
 .about .title::after {
   content: 'who i am';
 }
+.about .title-pt::after {
+  content: 'Quem eu sou';
+}
 
 .about .about-content .left {
   width: 45%;
@@ -457,8 +460,12 @@ i {
 
 .services .title::after,
 .work .title::after {
-  background: #111;
+  background: #202226;
   content: 'what i provide';
+}
+
+.services .title-pt::after {
+  content: 'o que eu forneço';
 }
 
 .services .services-content .card {
@@ -541,6 +548,10 @@ i {
 
 .skills .title::after {
   content: 'what i know';
+}
+
+.skills .title-pt::after {
+  content: 'o que eu sei';
 }
 
 .skills .skills-content .column {
@@ -652,6 +663,10 @@ i {
 *******************************/
 .work .title::after {
   content: 'portfolio';
+}
+
+.work .title-pt::after {
+  content: 'portfólio';
 }
 
 .work .carousel .card {
@@ -850,6 +865,10 @@ i {
 *******************************/
 .contact .title::after {
   content: 'get in touch';
+}
+
+.contact .title-pt::after {
+  content: 'contactar-me';
 }
 
 .contact .contact-content .column {
