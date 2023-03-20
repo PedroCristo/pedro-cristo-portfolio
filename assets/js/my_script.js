@@ -1,3 +1,4 @@
+// Change navbar style on scroll
 $(document).ready(function () {
     $(window).scroll(function () {
         // sticky navbar on scroll script
@@ -41,23 +42,20 @@ $(document).ready(function () {
         $('.menu-btn i').toggleClass("active");
     });
 
-
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Developer", "Designer", "Freelancer", "NFTs Creator"],
+        strings: ["Developer", "Designer", "Freelancer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Developer", "Designer", "Freelancer", "NFTs Creator"],
+        strings: ["Developer", "Designer", "Freelancer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
-
-
 
     // owl carousel script
     $('.carousel').owlCarousel({
@@ -84,16 +82,12 @@ $(document).ready(function () {
 });
 
 //PARALLAX
-
 $(window).scroll(function () {
     parallax();
 })
 
 function parallax() {
-
     var wScroll = $(window).scrollTop();
-
-
     $(".parallax").css("background-position",
         "center " + (wScroll * 0.60) + "px")
 
@@ -102,7 +96,6 @@ function parallax() {
 
     $(".parallax-box").css("top",
         -50 + (wScroll * 0.50) + "em")
-
 }
 
 // RECAPTCHA RESPONSIVE
@@ -115,18 +108,16 @@ $(function () {
         } else {
             scale = 1.0;
         }
-
         $('.g-recaptcha').css('transform', 'scale(' + scale + ')');
         $('.g-recaptcha').css('-webkit-transform', 'scale(' + scale + ')');
         $('.g-recaptcha').css('transform-origin', '0 0');
         $('.g-recaptcha').css('-webkit-transform-origin', '0 0');
     }
-
     rescaleCaptcha();
     $(window).resize(function () {
         rescaleCaptcha();
     });
-
 });
+
 // SHOW CORRENT YEAR IN THE FOOTER
 $("#corrent-year").text(new Date().getFullYear());
