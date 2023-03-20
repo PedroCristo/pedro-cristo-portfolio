@@ -5,9 +5,11 @@ $(document).ready(function () {
         if (this.scrollY > 20) {
             $('.navbar').addClass("sticky");
             $('.navbar .logo a').css("font-size", "25px");
+            $('.border').addClass('active');
         } else {
             $('.navbar').removeClass("sticky");
             $('.navbar .logo a').css("font-size", "35px");
+            $('.border').removeClass('active');
         }
 
         // scroll-up button show/hide script
