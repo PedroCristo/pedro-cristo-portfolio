@@ -1015,7 +1015,7 @@ i {
   position: absolute;
   top: 50px;
   left: 51px;
-  background-color: var(--white-color);
+  background-color: rgb(249, 249, 249);
   height: 45px;
 }
 
