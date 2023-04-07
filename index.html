@@ -52,13 +52,13 @@
                 <a href="index.html">Portfo<span>lio</span></a>
             </div>
             <ul class="menu">
-                <li><a data-after="Home" class="menu-btn" href="#home">Home</a></li>
-                <li><a data-after="About" class="menu-btn" href="#about">About</a></li>
-                <li><a data-after="Services" class="menu-btn" href="#services">Services</a></li>
-                <li><a data-after="Skills" class="menu-btn" href="#skills">Skills</a></li>
-                <li><a data-after="Portfolio" class="menu-btn" href="#work">Portfolio</a></li>
-                <li><a data-after="Contact" class="menu-btn" href="#contact">Contact</a></li>
-                <li> <a data-after="Português" class="border" href="home_pt.html">PT</a></li>
+                <li class="home-section"><a data-after="Home" class="menu-btn" href="#home-section">Home</a></li>
+                <li class="about-section"><a data-after="About" class="menu-btn" href="#about-section">About</a></li>
+                <li class="services-section"><a data-after="Services" class="menu-btn active" href="#services-section">Services</a></li>
+                <li class="skills-section"><a data-after="Skills" class="menu-btn" href="#skills-section">Skills</a></li>
+                <li class="work-section"><a data-after="Portfolio" class="menu-btn" href="#work-section">Portfolio</a></li>
+                <li class="contact-section"><a data-after="Contact" class="menu-btn" href="#contact-section">Contact</a></li>
+                <li><a data-after="Português" class="border" href="home_pt.html">PT</a></li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -68,7 +68,7 @@
     <!-- END OF HEADER NAVBAR -->
 
     <!-- HOME SECTION -->
-    <section id="home" class="home parallax">
+    <section id="home-section" class="home parallax">
         <div class="max-width">
             <div class="home-content">
                 <h2 class="text-1">
@@ -82,14 +82,15 @@
             <div class="social">
                 <a href="https://github.com/PedroCristo" target="_blank"><i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/pedro-cristo/" target="_blank"><i
-                        class="fab fa-linkedin-in"></i></a>
+                        class="fab fa-linkedin-in"></i>
+                </a>
             </div>
         </div>
     </section>
     <!-- END OF HOME SECTION -->
 
     <!-- ABOUT SECTION -->
-    <section id="about" class="about">
+    <section id="about-section" class="about">
         <div class="max-width">
             <h2 class="title">
                 About me</h2>
@@ -120,7 +121,7 @@
     <!-- END OF ABOUT SECTION -->
 
     <!-- SERVICES SECTION -->
-    <section id="services" class="services parallax-2">
+    <section id="services-section" class="services parallax-2">
         <div class="max-width">
             <h2 class="title">
                 My services</h2>
@@ -262,7 +263,7 @@
     <!-- END OF SERVICES MOBILE SECTION -->
 
     <!-- SKILLS SECTION -->
-    <section id="skills" class="skills">
+    <section id="skills-section" class="skills">
         <div class="max-width">
             <h2 class="title">
                 My skills</h2>
@@ -352,7 +353,7 @@
     <!-- END OF SKILLS SECTION -->
 
     <!-- WORK SECTION -->
-    <section id="work" class="work parallax-2">
+    <section id="work-section" class="work parallax-2">
         <div class="max-width">
             <h2 class="title">Some of My Work</h2>
             <div class="carousel owl-carousel">
@@ -460,6 +461,21 @@
                                 <i class="fab fa-html5"></i>
                                 <i class="fab fa-css3-alt"></i>
                                 <i class="fab fa-js"></i>
+                            </div>
+                            <h5 class="btn-portfolio">watch online</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://personal-trainer-template.netlify.app/" target="_blank">
+                        <div class="box">
+                            <img src="assets/images/portfolio/work-projects/personal-trainer-template.png" alt="WORK IMG">
+                            <h2 class="text">Personal Trainer Template</h2>
+                            <div class="box-icons">
+                                <i class="fab fa-html5"></i>
+                                <i class="fab fa-css3-alt"></i>
+                                <i class="fab fa-js"></i>
+                                <i class="fab fa-bootstrap"></i>
                             </div>
                             <h5 class="btn-portfolio">watch online</h5>
                         </div>
@@ -592,7 +608,7 @@
     <!-- END OF WORK SECTION -->
 
     <!-- CONTACT SECTION -->
-    <section id="contact" class="contact">
+    <section id="contact-section" class="contact">
         <div class="max-width">
             <h2 class="title">Contact me</h2>
             <div class="contact-content">
@@ -729,6 +745,7 @@
     <script src="assets/js/my_script.js"></script>
     <script src="assets/js/typing_en.js"></script>
     <script src="assets/js/smothScroll.js"></script>
+    <script src="assets/js/nav_links_active.js"></script>
     <!-- VANILLA-TILT -->
     <script type="text/javascript" src="assets/js/vanilla-tilt.js"></script>
     <script>

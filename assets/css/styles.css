@@ -226,6 +226,10 @@ i {
   border: 1px solid transparent;
 }
 
+.navbar .menu li.active a {
+  background-color: #b3b3b3;
+}
+
 .navbar .menu li a:hover {
   opacity: 0.7;
   border: 1px solid var(--interactive-color);
@@ -827,6 +831,10 @@ i {
 
 .fa-wordpress {
   color: #18749f;
+}
+
+.fa-bootstrap {
+  color:#8712F7; 
 }
 
 .work .box-icons .icon-img {
