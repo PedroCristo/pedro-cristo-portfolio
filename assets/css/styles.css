@@ -642,7 +642,10 @@ i {
 }
 
 .skills-content .js::before {
-  width: 55%;
+  width: 60%;
+}
+.skills-content .react::before {
+  width: 88%;
 }
 
 .skills-content .wordpress::before {
@@ -658,7 +661,7 @@ i {
 }
 
 .skills .left-bars-box {
-  margin-top: -55px;
+  margin-top: -10px;
 }
 
 .skills-content .pixlr::before {
