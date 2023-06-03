@@ -18,7 +18,3 @@ Thank you for visiting my portfolio repository, and I look forward to any feedba
 
 <p align="center"><img src="./assets/images/readme/portfolio-home-page.jpg" alt="Pedro Cristo - Portfolio - Image"></p>
 
-[Live Project Here](https://pedro-portfolio-website.netlify.app)
-
-
-<p align="center"><img src="./assets/images/readme/portfolio-home-page.jpg" alt="Pedro Cristo - Portfolio - Image"></p>
